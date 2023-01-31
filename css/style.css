@@ -15,31 +15,54 @@ body {
     position: relative;
 }
 header {
-    border: solid black 1px;
-    height: 80px;
+    height: 5rem;
     background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
 }
 main {
     background-color: #FFFFFF;
-    width: 80%;
+    width: 75%;
     height: 800px;
-    border: solid black 1px;
-    margin: 3rem;
+    margin-top: 5rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    border-radius: 1%;
 }
 /* /COMMON */
 
 /* HEADER */
-/* .head-page {
-
-} */
+#logo-image {
+    margin-left: 3rem;
+}   
+#title {
+    font-size: 45px;
+}
 /* /HEADER */
 
 /* MAIN */
-/* .container {
-} */
+.buttons {
+    line-height: 5rem;
+    padding-left: 5rem;
+    border-bottom: 2px solid #dedede;
+    padding-top: 1rem;
+}
+.button-1{
+    color: white;
+    background-color: #46adf0;
+    border-color: #40a8ef;
+    border-radius: 10%;
+    padding: 0.5%;
+    width: 6rem;
+}
+.button-2{
+    color: #9b9b9b;
+    background-color: white;
+    border-color: #dedede;
+    border-radius: 10%;
+    padding: 0.5%;
+    width: 7rem;
+}
 /* /MAIN */
